@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkblended_test=self.webpackChunkblended_test||[]).push([[655],{655:(e,s,t)=>{t.r(s),t.d(s,{default:()=>a});t(791);var d=t(184);const a=()=>(0,d.jsx)("div",{children:"RatesPage"})}}]);
+//# sourceMappingURL=655.c96ed6a2.chunk.js.map
