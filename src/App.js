@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import { setBaseCurrency } from "./redux/slice";
 import { baseCurrencyThunk } from "./redux/thunk";
-import { getUserInfo } from "./services/apiGeolocation";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const RatesPage = lazy(() => import("./pages/RatesPage"));
@@ -29,7 +28,7 @@ function App() {
     }
 
     navigator.geolocation.getCurrentPosition(success, error, options);
-  }, []);
+  }, [dispatch]);
 
   return (
     <Routes>
