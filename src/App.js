@@ -1,9 +1,9 @@
 import { lazy, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
 import { setBaseCurrency } from "./redux/slice";
 import { baseCurrencyThunk } from "./redux/thunk";
+import Layout from "./components/Layout/Layout";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const RatesPage = lazy(() => import("./pages/RatesPage"));
