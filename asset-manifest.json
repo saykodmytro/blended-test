@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blended-test/static/css/main.e6c13ad2.css",
+    "main.js": "/blended-test/static/js/main.7fbe8578.js",
+    "index.html": "/blended-test/index.html",
+    "main.e6c13ad2.css.map": "/blended-test/static/css/main.e6c13ad2.css.map",
+    "main.7fbe8578.js.map": "/blended-test/static/js/main.7fbe8578.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7fbe8578.js"
+  ]
+}
